@@ -1,6 +1,43 @@
+.content-section {
+    margin: auto;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     height: 293px;
     padding: 95px 50px 100px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.cover {
+    height: 757px;
+    padding: 165px 50px 50px;
+    margin-bottom: 180px;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cover__title {
+    margin-bottom: 106px;
+}
+
+.lots {
+    height: 723px;
+    margin-bottom: 120px;
+}
+
+.about {
+    height: 595px;
+}
+
+.lots,
+.about {
+    padding: 0 24px;
+}
+
+.footer {
+    height: 180px;
 }
