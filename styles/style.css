@@ -16,20 +16,26 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    height: 293px;
-    padding: 95px 50px 100px;
+    padding: 89px 50px 96px;
     background-color: rgba(255, 255, 255, 1);
 }
 
 .header__links-list {
     display: flex;
-    gap: 32px;
-    list-style: circle;
+    gap: 32px;  
     font-size: 18px;
+}
+
+.header__links-list-item {
+    list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
     list-style: none;
+}
+
+.header__link {
+    text-underline-position: under;
 }
 
 .header__link_active {
@@ -58,6 +64,7 @@
 .header__contacts-phone,
 .header__contacts-email {
     white-space: nowrap;
+    text-underline-position: under;
 }
 
 
@@ -74,7 +81,7 @@
 }
 
 /* оверлей для затемнения фона картинки*/
-.dark-overlay {
+.overlay-darken {
     position: absolute;
     inset: 0;
     background-color: rgb(0 0 0 / 0.6);
@@ -114,16 +121,18 @@
     color: #fff;
     text-transform: uppercase;
     font-size: 22px;
+    font-weight: normal;
 }
 
 .cover__description-subline {
     width: 637px;
-    word-spacing: 18px;
+    word-spacing: 18.5px;
     line-height: 1.27;
 }
 
 .cover__description-button {
     font-size: inherit;
+    font-weight: normal;
     color: inherit;
     text-transform: inherit;
     background-color: transparent;
