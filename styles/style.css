@@ -2,8 +2,16 @@
     margin: auto;
 }
 
-/* Header */
+.text-center {
+    text-align: center;
+}
 
+.text-right {
+    text-align: right;
+}
+
+
+/* Header */
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -52,21 +60,79 @@
     white-space: nowrap;
 }
 
-/* Cover */
 
+/* Cover */
 .cover {
-    height: 757px;
+    position: relative;
     padding: 165px 50px 50px;
     margin-bottom: 180px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    z-index: 0;
+}
+
+/* оверлей для затемнения фона картинки*/
+.dark-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgb(0 0 0 / 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* обертка для элементов, чтобы их показать поверх затменения оверлеем */
+.top-index-wrapper {
+    position: relative;
+    z-index: 1;
 }
 
 .cover__title {
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-transform: uppercase;
     margin-bottom: 106px;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1.15;
+    letter-spacing: calc(100px * 0.3);
+    margin-right: -30px;
 }
+
+.accent-span {
+    display: block;
+}
+
+.cover__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.cover__description-subline {
+    width: 637px;
+    word-spacing: 18px;
+    line-height: 1.27;
+}
+
+.cover__description-button {
+    font-size: inherit;
+    color: inherit;
+    text-transform: inherit;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 12px 32px;
+}
+
+
+/* Lots */
 
 .lots {
     height: 723px;
