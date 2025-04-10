@@ -30,14 +30,14 @@
 
 .header__logo {
     display: block;
-    width: 130px;
+    width: 135px;
 }
 
 .header__contacts {
     display: flex;
     flex-direction: column;
     justify-self: end;
-    width: 240px;
+    max-width: 240px;
     font-size: 18px;
     font-style: normal;
     font-weight: normal;
