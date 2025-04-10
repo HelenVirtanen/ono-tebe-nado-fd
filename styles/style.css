@@ -2,15 +2,6 @@
     margin: auto;
 }
 
-.text-center {
-    text-align: center;
-}
-
-.text-right {
-    text-align: right;
-}
-
-
 /* Header */
 .header {
     display: grid;
@@ -106,12 +97,26 @@
     font-size: 100px;
     font-weight: bold;
     line-height: 1.15;
-    letter-spacing: calc(100px * 0.3);
-    margin-right: -30px;
 }
 
-.accent-span {
+.aligned-text {
     display: block;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 30px;
+}
+
+.no-letter-spacing {
+    letter-spacing: normal;
 }
 
 .cover__description {
@@ -124,13 +129,13 @@
     font-weight: normal;
 }
 
-.cover__description-subline {
+.cover__description-text {
     width: 637px;
     word-spacing: 18.5px;
     line-height: 1.27;
 }
 
-.cover__description-button {
+.bet-button {
     font-size: inherit;
     font-weight: normal;
     color: inherit;
