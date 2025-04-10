@@ -13,18 +13,18 @@
     background-color: rgba(255, 255, 255, 1);
 }
 
-.header__menu-list {
+.header__links-list {
     display: flex;
     gap: 32px;
     list-style: circle;
     font-size: 18px;
 }
 
-.header__menu-item_active {
+.header__links-list-item_no-bullit {
     list-style: none;
 }
 
-.header__menu-item__link_active {
+.header__link_active {
     text-decoration: none;
 }
 
@@ -33,21 +33,26 @@
     width: 135px;
 }
 
-.header__contacts {
+.address {
     display: flex;
     flex-direction: column;
-    justify-self: end;
-    max-width: 240px;
     font-size: 18px;
     font-style: normal;
     font-weight: normal;
     line-height: 1.35;
 }
 
+.header__address {
+    max-width: 240px;
+    justify-self: end;
+}
+
 .header__contacts-phone,
 .header__contacts-email {
     white-space: nowrap;
 }
+
+/* Cover */
 
 .cover {
     height: 757px;
@@ -79,4 +84,8 @@
 
 .footer {
     height: 180px;
+}
+
+.footer__address {
+    max-width: 265px;
 }
