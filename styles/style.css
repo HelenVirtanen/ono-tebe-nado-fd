@@ -161,9 +161,7 @@
 }
 
 .lots__card-list {
-    margin: 0;
     margin-bottom: 30px;
-    padding: 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -171,11 +169,8 @@
 }
 
 .lots__card-list-item {
-    display: flex;
-    flex-direction: column;
     width: 334px;
     min-height: 596px;
-    position: relative;
 }
 
 .card-link {
@@ -255,6 +250,8 @@
     padding: 0 24px;
 }
 
+
+/* Footer */
 .footer {
     height: 180px;
 }
