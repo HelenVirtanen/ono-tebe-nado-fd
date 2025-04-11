@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 88px 50px 96px;
+    padding: 88px 50px 93px;
     background-color: rgba(255, 255, 255, 1);
 }
 
@@ -68,7 +68,7 @@
     margin-bottom: 180px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 51% center;
     background-size: cover;
     z-index: 0;
 }
@@ -335,4 +335,5 @@
 .footer__contacts-email {
     white-space: nowrap;
     text-underline-position: under;
+    text-decoration-thickness: 1px;
 }
