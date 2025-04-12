@@ -37,7 +37,7 @@
 .header__logo {
     display: block;
     width: 136px;
-    margin-top: 4px;
+    padding-top: 4px;
 }
 
 .address {
@@ -150,9 +150,9 @@
 
 /* Lots */
 .lots {
-    height: 723px;
     margin-bottom: 120px;
     padding: 0 24px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .lots__heading {
@@ -250,12 +250,13 @@
     grid-template-columns: 334px auto;
     gap: 25px;
     padding: 0 24px;
+    padding-top: 35px;
     margin-bottom: 180px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .about__column:first-child {
-    padding-top: 35px;
-    margin: 0 auto;
+    padding: 0 47px;
 }
 
 .about__logo {
@@ -276,8 +277,7 @@
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 700;
-    margin-top: 136px;
-    margin-bottom: 100px;
+    padding: 100px 0;
 }
 
 .about__text {
@@ -301,6 +301,7 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: flex-start;
     padding: 0 50px 82px;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .footer__address {
